@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import re
-
-# Чтение твоего отчета
 try:
     with open('galaxy_analysis_report.txt', 'r', encoding='utf-8') as f:
         content = f.read()
